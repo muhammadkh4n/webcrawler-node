@@ -1,0 +1,29 @@
+{
+  "name": "webcrawler-node",
+  "version": "0.0.1",
+  "description": "Crawl website",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadkh4n/webcrawler-node.git"
+  },
+  "keywords": [
+    "web",
+    "crawler",
+    "node"
+  ],
+  "author": "Muhammad Khan <muhammadkh4n@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muhammadkh4n/webcrawler-node/issues"
+  },
+  "homepage": "https://github.com/muhammadkh4n/webcrawler-node#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "puppeteer": "^4.0.0"
+  }
+}
